@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Models
+namespace QuanLyCuaHangSach.Dto
 {
-    internal class Customer
+    public class Customer
     {
         public int Id { get; set; }
         public string Name { get; set; }

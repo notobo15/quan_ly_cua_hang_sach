@@ -5,9 +5,9 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace App.Dto
+namespace QuanLyCuaHangSach.Dto
 {
-    internal class Account
+    public class Account
     {
         public int Id { get; set; }
         public string Name { get; set; }

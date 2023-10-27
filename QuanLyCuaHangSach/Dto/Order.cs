@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace QuanLyCuaHangSach.Dto
 {
-    internal class Order
+    public class Order
     {
         public int Id { get; set; }
         public DateTime OrderDate { get; set; }
